@@ -8,6 +8,7 @@ interface Iprops {
   images: string[];
   location: string;
   id: number;
+  color?:string
 }
 
 const Pet:FunctionComponent<Iprops> = (props) => {
